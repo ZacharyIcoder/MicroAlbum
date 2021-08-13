@@ -18,5 +18,5 @@ export class Course {
     public cover?:string
 
     @prop({ref: () => Episode})
-    public episodes:Ref<Episode>[]
+    public episodes?:Ref<Episode>[]
 }

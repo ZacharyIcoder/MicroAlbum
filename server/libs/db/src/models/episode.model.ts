@@ -7,8 +7,8 @@ import {modelOptions, prop} from "@typegoose/typegoose";
 })
 export class Episode {
     @prop()
-    public  name:string
+    public  name!:string
 
     @prop()
-    public  file:string
+    public  file?:string
 }

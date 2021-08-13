@@ -10,9 +10,9 @@ export class User {
 
     @ApiProperty({description:'用户名',example:'user1'})
     @prop()
-    public username:string
+    public username!:string
 
     @ApiProperty({description:'密码',example:'pass1'})
     @prop()
-    public password:string
+    public password!:string
 }

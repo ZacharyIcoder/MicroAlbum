@@ -19,6 +19,9 @@
       "@libs/db/*": [
         "libs/db/src/*"
       ]
-    }
+    },
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node"
   }
 }
